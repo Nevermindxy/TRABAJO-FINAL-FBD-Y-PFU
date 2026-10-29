@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Proyecto Integrador</title>
+</head>
+<body>
+    <body>
+    <h2>Formulario de Registro</h2>
+    <form action="/enviar" method="POST">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre_usuario" required><br><br>
+
+        <label>Correo Electrónico:</label><br>
+        <input type="email" name="correo_usuario" required><br><br>
+
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje_usuario" rows="4" required></textarea><br><br>
+
+        <button type="submit">Enviar datos</button>
+    </form>
+</body>
+</html>
